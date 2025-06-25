@@ -26,7 +26,7 @@ Ein einfaches Shell-Skript zur automatischen Installation von Docker und Docker 
 
 Führe folgenden Befehl in deinem Terminal aus:
 
-sudo bash <(curl -fsSL https://raw.githubusercontent.com/mrthorx/proxmox-scripts/main/install-docker.sh)
+curl -fsSL https://raw.githubusercontent.com/mrthorx/proxmox-scripts/main/install-docker.sh | sudo bash
 
 ---
 
